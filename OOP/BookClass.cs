@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP
+namespace OopKitabxana
 {
     internal class BookClass
     {
@@ -18,7 +18,7 @@ namespace OOP
             if (isAvailable)
             {
                 isAvailable = false;
-                Console.WriteLine("kitab movcud idi size verildi");
+                Console.WriteLine("kitab movcud idi ve size verildi");
             }
             else
             {
@@ -27,8 +27,9 @@ namespace OOP
         }
         public void ReturnBook()
         {
-            isAvailable = true;
             Console.WriteLine("kitab qaytarildi");
+            isAvailable = true;
+         
         }
 
     }
